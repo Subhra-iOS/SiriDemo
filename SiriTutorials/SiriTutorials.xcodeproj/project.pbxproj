@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D5853463A753878035AEAA /* Pods_SiriTutorials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887320832D264D05F0089AF6 /* Pods_SiriTutorials.framework */; };
+		2AB1BA4D2530858500C19DF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1BA4C2530858500C19DF5 /* AppDelegate.swift */; };
+		2AB1BA4F2530858500C19DF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1BA4E2530858500C19DF5 /* SceneDelegate.swift */; };
+		2AB1BA512530858500C19DF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1BA502530858500C19DF5 /* ViewController.swift */; };
+		2AB1BA542530858500C19DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB1BA522530858500C19DF5 /* Main.storyboard */; };
+		2AB1BA562530858700C19DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB1BA552530858700C19DF5 /* Assets.xcassets */; };
+		2AB1BA592530858700C19DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB1BA572530858700C19DF5 /* LaunchScreen.storyboard */; };
+		2AB1BA66253086C100C19DF5 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1BA65253086C100C19DF5 /* NetworkHandler.swift */; };
+		2AD9229B25308F59002600AE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2AD9229A25308F59002600AE /* Intents.intentdefinition */; };
+		2AD922AB25309545002600AE /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD922AA25309545002600AE /* IntentHandler.swift */; };
+		2AD922AF25309545002600AE /* TriviaIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2AD922A825309545002600AE /* TriviaIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2AD922B6253095C2002600AE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2AD9229A25308F59002600AE /* Intents.intentdefinition */; };
+		2AD922BB25309A43002600AE /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1BA65253086C100C19DF5 /* NetworkHandler.swift */; };
+		F4A7D2DDCA33247CA4B41164 /* Pods_TriviaIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF700121578E31D4D990C8E1 /* Pods_TriviaIntents.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AD922AD25309545002600AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB1BA412530858500C19DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD922A725309545002600AE;
+			remoteInfo = TriviaIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2AD922B325309545002600AE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2AD922AF25309545002600AE /* TriviaIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2161DADE0859E6C9B54D48C2 /* Pods-TriviaIntents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaIntents.release.xcconfig"; path = "Target Support Files/Pods-TriviaIntents/Pods-TriviaIntents.release.xcconfig"; sourceTree = "<group>"; };
+		2AB1BA492530858500C19DF5 /* SiriTutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriTutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB1BA4C2530858500C19DF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AB1BA4E2530858500C19DF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AB1BA502530858500C19DF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AB1BA532530858500C19DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AB1BA552530858700C19DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB1BA582530858700C19DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AB1BA5A2530858700C19DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB1BA65253086C100C19DF5 /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		2AD9229A25308F59002600AE /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		2AD922A825309545002600AE /* TriviaIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TriviaIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD922AA25309545002600AE /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		2AD922AC25309545002600AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887320832D264D05F0089AF6 /* Pods_SiriTutorials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiriTutorials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8C31FB2D364FB099F6BE51 /* Pods-SiriTutorials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriTutorials.release.xcconfig"; path = "Target Support Files/Pods-SiriTutorials/Pods-SiriTutorials.release.xcconfig"; sourceTree = "<group>"; };
+		D38BEBC8D89483478232558E /* Pods-TriviaIntents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaIntents.debug.xcconfig"; path = "Target Support Files/Pods-TriviaIntents/Pods-TriviaIntents.debug.xcconfig"; sourceTree = "<group>"; };
+		E41517F07F8C1ECAEEF23B85 /* Pods-SiriTutorials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriTutorials.debug.xcconfig"; path = "Target Support Files/Pods-SiriTutorials/Pods-SiriTutorials.debug.xcconfig"; sourceTree = "<group>"; };
+		FF700121578E31D4D990C8E1 /* Pods_TriviaIntents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TriviaIntents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB1BA462530858500C19DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D5853463A753878035AEAA /* Pods_SiriTutorials.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD922A525309545002600AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A7D2DDCA33247CA4B41164 /* Pods_TriviaIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18138A79FC7A95BD033CCC34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				887320832D264D05F0089AF6 /* Pods_SiriTutorials.framework */,
+				FF700121578E31D4D990C8E1 /* Pods_TriviaIntents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AB1BA402530858500C19DF5 = {
+			isa = PBXGroup;
+			children = (
+				2AB1BA4B2530858500C19DF5 /* SiriTutorials */,
+				2AD922A925309545002600AE /* TriviaIntents */,
+				2AB1BA4A2530858500C19DF5 /* Products */,
+				9ADD9A89B75EFC7949124984 /* Pods */,
+				18138A79FC7A95BD033CCC34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB1BA4A2530858500C19DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB1BA492530858500C19DF5 /* SiriTutorials.app */,
+				2AD922A825309545002600AE /* TriviaIntents.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB1BA4B2530858500C19DF5 /* SiriTutorials */ = {
+			isa = PBXGroup;
+			children = (
+				2AB1BA65253086C100C19DF5 /* NetworkHandler.swift */,
+				2AB1BA4C2530858500C19DF5 /* AppDelegate.swift */,
+				2AB1BA4E2530858500C19DF5 /* SceneDelegate.swift */,
+				2AB1BA502530858500C19DF5 /* ViewController.swift */,
+				2AB1BA522530858500C19DF5 /* Main.storyboard */,
+				2AB1BA552530858700C19DF5 /* Assets.xcassets */,
+				2AB1BA572530858700C19DF5 /* LaunchScreen.storyboard */,
+				2AB1BA5A2530858700C19DF5 /* Info.plist */,
+				2AD9229A25308F59002600AE /* Intents.intentdefinition */,
+			);
+			path = SiriTutorials;
+			sourceTree = "<group>";
+		};
+		2AD922A925309545002600AE /* TriviaIntents */ = {
+			isa = PBXGroup;
+			children = (
+				2AD922AA25309545002600AE /* IntentHandler.swift */,
+				2AD922AC25309545002600AE /* Info.plist */,
+			);
+			path = TriviaIntents;
+			sourceTree = "<group>";
+		};
+		9ADD9A89B75EFC7949124984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E41517F07F8C1ECAEEF23B85 /* Pods-SiriTutorials.debug.xcconfig */,
+				AD8C31FB2D364FB099F6BE51 /* Pods-SiriTutorials.release.xcconfig */,
+				D38BEBC8D89483478232558E /* Pods-TriviaIntents.debug.xcconfig */,
+				2161DADE0859E6C9B54D48C2 /* Pods-TriviaIntents.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB1BA482530858500C19DF5 /* SiriTutorials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB1BA5D2530858700C19DF5 /* Build configuration list for PBXNativeTarget "SiriTutorials" */;
+			buildPhases = (
+				1547ECF22233E27F7ECB3019 /* [CP] Check Pods Manifest.lock */,
+				2AB1BA452530858500C19DF5 /* Sources */,
+				2AB1BA462530858500C19DF5 /* Frameworks */,
+				2AB1BA472530858500C19DF5 /* Resources */,
+				3EC3F44F1137F1FD2AEF65F7 /* [CP] Embed Pods Frameworks */,
+				2AD922B325309545002600AE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD922AE25309545002600AE /* PBXTargetDependency */,
+			);
+			name = SiriTutorials;
+			productName = SiriTutorials;
+			productReference = 2AB1BA492530858500C19DF5 /* SiriTutorials.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AD922A725309545002600AE /* TriviaIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD922B025309545002600AE /* Build configuration list for PBXNativeTarget "TriviaIntents" */;
+			buildPhases = (
+				DFCA483F845B02CDAB35DC10 /* [CP] Check Pods Manifest.lock */,
+				2AD922A425309545002600AE /* Sources */,
+				2AD922A525309545002600AE /* Frameworks */,
+				2AD922A625309545002600AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriviaIntents;
+			productName = TriviaIntents;
+			productReference = 2AD922A825309545002600AE /* TriviaIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB1BA412530858500C19DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2AB1BA482530858500C19DF5 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2AD922A725309545002600AE = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 2AB1BA442530858500C19DF5 /* Build configuration list for PBXProject "SiriTutorials" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB1BA402530858500C19DF5;
+			productRefGroup = 2AB1BA4A2530858500C19DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB1BA482530858500C19DF5 /* SiriTutorials */,
+				2AD922A725309545002600AE /* TriviaIntents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB1BA472530858500C19DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB1BA592530858700C19DF5 /* LaunchScreen.storyboard in Resources */,
+				2AB1BA562530858700C19DF5 /* Assets.xcassets in Resources */,
+				2AB1BA542530858500C19DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD922A625309545002600AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1547ECF22233E27F7ECB3019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiriTutorials-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC3F44F1137F1FD2AEF65F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiriTutorials/Pods-SiriTutorials-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiriTutorials/Pods-SiriTutorials-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SiriTutorials/Pods-SiriTutorials-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCA483F845B02CDAB35DC10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TriviaIntents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB1BA452530858500C19DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB1BA512530858500C19DF5 /* ViewController.swift in Sources */,
+				2AB1BA4D2530858500C19DF5 /* AppDelegate.swift in Sources */,
+				2AB1BA4F2530858500C19DF5 /* SceneDelegate.swift in Sources */,
+				2AD9229B25308F59002600AE /* Intents.intentdefinition in Sources */,
+				2AB1BA66253086C100C19DF5 /* NetworkHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD922A425309545002600AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD922B6253095C2002600AE /* Intents.intentdefinition in Sources */,
+				2AD922AB25309545002600AE /* IntentHandler.swift in Sources */,
+				2AD922BB25309A43002600AE /* NetworkHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD922AE25309545002600AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD922A725309545002600AE /* TriviaIntents */;
+			targetProxy = 2AD922AD25309545002600AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AB1BA522530858500C19DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB1BA532530858500C19DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AB1BA572530858700C19DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB1BA582530858700C19DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AB1BA5B2530858700C19DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AB1BA5C2530858700C19DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB1BA5E2530858700C19DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41517F07F8C1ECAEEF23B85 /* Pods-SiriTutorials.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QCVS5M6Q4;
+				INFOPLIST_FILE = SiriTutorials/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.SiriTutorials;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB1BA5F2530858700C19DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8C31FB2D364FB099F6BE51 /* Pods-SiriTutorials.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QCVS5M6Q4;
+				INFOPLIST_FILE = SiriTutorials/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.SiriTutorials;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AD922B125309545002600AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38BEBC8D89483478232558E /* Pods-TriviaIntents.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QCVS5M6Q4;
+				INFOPLIST_FILE = TriviaIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.SiriTutorials.TriviaIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AD922B225309545002600AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2161DADE0859E6C9B54D48C2 /* Pods-TriviaIntents.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QCVS5M6Q4;
+				INFOPLIST_FILE = TriviaIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCDemo.SiriTutorials.TriviaIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB1BA442530858500C19DF5 /* Build configuration list for PBXProject "SiriTutorials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB1BA5B2530858700C19DF5 /* Debug */,
+				2AB1BA5C2530858700C19DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB1BA5D2530858700C19DF5 /* Build configuration list for PBXNativeTarget "SiriTutorials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB1BA5E2530858700C19DF5 /* Debug */,
+				2AB1BA5F2530858700C19DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD922B025309545002600AE /* Build configuration list for PBXNativeTarget "TriviaIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD922B125309545002600AE /* Debug */,
+				2AD922B225309545002600AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB1BA412530858500C19DF5 /* Project object */;
+}
