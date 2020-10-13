@@ -22,8 +22,25 @@ class TaskViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        if let _ = self.activity{
+            let alert: UIAlertController = UIAlertController(title: "Alert", message: "Open my task", preferredStyle: .alert)
+            let action: UIAlertAction = UIAlertAction(title: "OK", style: .destructive) { _  in
+                alert.dismiss(animated: true) {
+                    
+                }
+            }
+            alert.addAction(action)
+            self.present(alert, animated: true) {
+                
+            }
+        }
+    }
+    
+    @IBAction func didCreatShortcut(_ sender: Any) {
         self.addSiriShortcut()
     }
+    
     
     private func addSiriShortcut() {
         
