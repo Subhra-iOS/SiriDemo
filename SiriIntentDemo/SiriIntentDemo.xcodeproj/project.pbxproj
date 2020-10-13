@@ -18,10 +18,8 @@
 		2A328F13253464510059D3F2 /* CustomIntentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A328EFE253464510059D3F2 /* CustomIntentKit.framework */; };
 		2A328F14253464510059D3F2 /* CustomIntentKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A328EFE253464510059D3F2 /* CustomIntentKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2A328F1F253464D40059D3F2 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F1E253464D40059D3F2 /* NSUserActivity+IntentData.swift */; };
-		2A328F20253464D40059D3F2 /* NSUserActivity+IntentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F1E253464D40059D3F2 /* NSUserActivity+IntentData.swift */; };
 		2A328F24253466300059D3F2 /* CustomIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F23253466300059D3F2 /* CustomIntents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
 		2A328F25253466300059D3F2 /* CustomIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F23253466300059D3F2 /* CustomIntents.intentdefinition */; };
-		2A328F26253466300059D3F2 /* CustomIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F23253466300059D3F2 /* CustomIntents.intentdefinition */; };
 		2A328F4725346FEB0059D3F2 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F4625346FEB0059D3F2 /* IntentHandler.swift */; };
 		2A328F5025346FEC0059D3F2 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A328F4F25346FEC0059D3F2 /* IntentsUI.framework */; };
 		2A328F5325346FEC0059D3F2 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F5225346FEC0059D3F2 /* IntentViewController.swift */; };
@@ -33,7 +31,6 @@
 		2A328F89253470E30059D3F2 /* CustomIntentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A328EFE253464510059D3F2 /* CustomIntentKit.framework */; };
 		2A328F8C253470F70059D3F2 /* CustomIntentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A328EFE253464510059D3F2 /* CustomIntentKit.framework */; };
 		2A328F9F253471F90059D3F2 /* TaskIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F9E253471F90059D3F2 /* TaskIntentHandler.swift */; };
-		2A328FA0253471F90059D3F2 /* TaskIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A328F9E253471F90059D3F2 /* TaskIntentHandler.swift */; };
 		2A328FAE25347D4D0059D3F2 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A328FAD25347D4D0059D3F2 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -511,9 +508,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A328F26253466300059D3F2 /* CustomIntents.intentdefinition in Sources */,
-				2A328FA0253471F90059D3F2 /* TaskIntentHandler.swift in Sources */,
-				2A328F20253464D40059D3F2 /* NSUserActivity+IntentData.swift in Sources */,
 				2A328F0E253464510059D3F2 /* CustomIntentKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,13 @@ import CustomIntentKit
 import os.log
 
 class TaskViewController: UIViewController {
+    
+    private var activity: NSUserActivity?
    
+    func setUser(activity: NSUserActivity?){
+        self.activity = activity
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

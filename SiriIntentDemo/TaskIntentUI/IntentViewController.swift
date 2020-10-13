@@ -38,7 +38,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
             os_log("intentHandlingStatus == .success")
             if let _ = interaction.intentResponse as? TaskIntentResponse {
                 os_log("inside TaskIntentResponse")
-                completion(true, parameters, CGSize(width: desiredSize.width, height: taskButton.frame.height))
+                completion(true, parameters, CGSize(width: desiredSize.width, height: (taskButton.frame.height + 20.0)))
                 return
             }
         }
@@ -56,6 +56,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
     
     
     @IBAction func didTapOnOpenTask(_ sender: Any) {
+        
     }
     
 }
